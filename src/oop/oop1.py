@@ -17,3 +17,27 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+# base class
+class Vehicle:
+  pass
+
+# Route one for class types
+class FlightVehicle(Vehicle):
+  pass
+
+class Starship(FlightVehicle):
+  pass
+
+class Airplane(FlightVehicle):
+  pass
+
+# Route two for class types
+class GroundVehicle(Vehicle):
+  pass
+
+class Car(GroundVehicle):
+  pass
+
+class Motorcycle(GroundVehicle):
+  pass
